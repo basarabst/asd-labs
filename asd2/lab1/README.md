@@ -1,21 +1,38 @@
-# About
+# Лабораторна робота 1. Рекурсивні алгоритми
 
-This repository contains some implementations of a recursive function to compute an elementary function given by a variant.
+Метою лабораторної роботи No 1 є засвоєння теоретичного матеріалу та
+набуття практичного досвіду створення рекурсивних алгоритмів та написання
+відповідних їм програм.
 
-- Recursive descent: `1-descent.c`
+## Встановлення та компіляція
+Ви повинні мати встановлений компілятор **GCC**. Для спочатку склонуйте репозиторій з лабораторними роботами:
 
-- Recursive back: `2-back.c`
+```bash
+git clone https://github.com/basarabst/asd-labs.git
+```
 
-- Recursive mixed (descent + back): `3-mixed.c`
+Скомпілюйте безпосередньо:
 
->**Note:** All these algorithms calculate the elementary function with some observational error. A graph of this observational error was plotted, depending on the input data.
+```bash
+gcc asd2/lab1/1-descent.c -o asd2/lab1/1-descent.exe
+```
 
-## Testing
+```bash
+gcc asd2/lab1/2-back.c -o asd2/lab1/2-back.exe
+```
 
-Testing was successful. All calculated values coincided in all cases. For verification, a cyclic program `loop.c` was written, which also showed an identical result. For greater accuracy, a check on a calculator was used.
+```bash
+gcc asd2/lab1/3-mixed.c -o asd2/lab1/3-mixed.exe
+```
 
-## Clone it
+```bash
+gcc asd2/lab1/loop.c -o asd2/lab1/loop.exe
+```
 
-You can clone this repository locally using the following directive:
+## Основні параметри
 
-`git clone https://github.com/basarabst/asd2-lab1.git`
+![variant](https://github.com/basarabst/asd-labs/assets/114052215/0b9998c4-08ad-46c7-9547-f01eac65a7bb)
+
+## Графік похибки
+
+![plot](https://github.com/basarabst/asd-labs/assets/114052215/b9cf0249-daaa-4ef0-84c1-c2db6858c372)
