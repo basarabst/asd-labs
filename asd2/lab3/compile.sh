@@ -1,0 +1,1 @@
+gcc src/app.c src/utils/coords.c  src/utils/matrix.c src/drawing/graphs.c src/drawing/edges.c -mwindows -o app.exe
