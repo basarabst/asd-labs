@@ -7,21 +7,31 @@
 Лабораторна робота розроблена для ОС **Windows**.
 
 ## Встановлення та компіляція
-Ви повинні мати встановлений компілятор **GCC**. Для спочатку склонуйте репозиторій локально:
+Ви повинні мати встановлений компілятор **GCC**. Для спочатку склонуйте репозиторій з лабораторними роботами:
 
-`git clone https://github.com/basarabst/asd2-lab3.git`
+```bash
+git clone https://github.com/basarabst/asd-labs.git
+```
 
-Перейдіть у папку склонованого репозиторію та, якщо ви маєте **Bush GNU**, виконайте скрипти:
+Перейдіть у папку **з відповідною лабораторною роботою** та, якщо ви маєте **Bush GNU**, виконайте скрипти:
 
-`bash compile.sh`
+```bash
+bash compile.sh
+```
 
-`bash compile-output.sh`
+```bash
+bash compile-output.sh
+```
 
 А якщо ж ні, то скомпілюйте безпосередньо:
 
-`gcc src/app.c src/utils/coords.c  src/utils/matrix.c src/drawing/graphs.c src/drawing/edges.c -mwindows -o app.exe`
+```bash
+gcc src/app.c src/utils/coords.c  src/utils/matrix.c src/drawing/graphs.c src/drawing/edges.c -mwindows -o app.exe
+```
 
-`gcc src/output.c src/utils/matrix.c -o output.exe`
+```bash
+gcc src/output.c src/utils/matrix.c -o output.exe
+```
 
 >Зауваження: app.exe - вікно з графами, output.exe - консольний вивід матриць цих графів (варто запускати з консолі)
 
