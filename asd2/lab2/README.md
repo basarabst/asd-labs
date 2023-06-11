@@ -1,13 +1,22 @@
-# About
+# Лабораторна робота 2. Зв'язані динамічні структури даних. Списки
 
-This repository contains a linked list implementation, as well as functions to process the list and calculate list elements by formula according to the variant.
+Метою лабораторної роботи No2 є засвоєння теоретичного матеріалу та
+набуття практичного досвіду використання зв’язаних динамічних структур
+даних у вигляді одно- та двозв’язних списків при складанні різних алгоритмів.
 
-## Testing
+## Встановлення та компіляція
+Ви повинні мати встановлений компілятор **GCC**. Для спочатку склонуйте репозиторій з лабораторними роботами:
 
-Testing was successful. All calculations are correct. They were additionally checked with a calculator.
+```bash
+git clone https://github.com/basarabst/asd-labs.git
+```
 
-## Clone it
+Скомпілюйте безпосередньо:
 
-You can clone this repository locally using the following directive:
+```bash
+gcc asd2/lab2/index.c -o asd2/lab2/index.exe
+```
 
-`git clone https://github.com/basarabst/asd2-lab2.git`
+## Основні параметри
+
+![variant](https://github.com/basarabst/asd-labs/assets/114052215/e6053409-b916-4ace-9311-318c0133215e)
