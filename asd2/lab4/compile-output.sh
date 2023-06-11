@@ -1,0 +1,1 @@
+gcc src/output.c src/utils/properties.c -o output.exe
