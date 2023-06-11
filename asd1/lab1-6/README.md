@@ -20,11 +20,3 @@ gcc asd1/lab1-6/index.c -o asd1/lab1-6/index.exe
 ## Основні параметри
 
 ![variant](https://github.com/basarabst/asd-labs/assets/114052215/7c6ab96e-ca02-4845-acf9-d71652d0ebcc)
-
-## Діаграми алгоритмів
-
-### bool.c
-![bool schema](https://github.com/basarabst/asd-labs/assets/114052215/2e537aa1-836f-4dcb-9baa-5a96ac2791f5)
-
-### comparison.c
-![comparison schema](https://github.com/basarabst/asd-labs/assets/114052215/95283205-5ed5-4676-86eb-c0ae860fa7cf)
