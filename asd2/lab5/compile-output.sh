@@ -1,0 +1,1 @@
+gcc src/output.c src/utils/properties.c src/utils/dataStructures.c -o output.exe
